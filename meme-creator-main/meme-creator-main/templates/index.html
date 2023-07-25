@@ -37,9 +37,9 @@
               <option value="logo.svg" {% if selected_image == 'logo.svg' %}selected{% endif %}>Выбери мем</option>
               <option value="meme_1.jpg" {% if selected_image == 'meme_1.jpg' %}selected{% endif %}>Девочка и пожар</option>
               <option value="meme_2.jpg" {% if selected_image == 'meme_2.jpg' %}selected{% endif %}>Две кнопки</option>
-              <option value="meme_2.jpg" {% if selected_image == 'meme_3.jpg' %}selected{% endif %}>Подозрение</option>
-              <option value="meme_2.jpg" {% if selected_image == 'meme_4.jpg' %}selected{% endif %}>кот</option>
-
+              <option value="meme_3.jpg" {% if selected_image == 'meme_3.jpg' %}selected{% endif %}>Подозрение</option>
+              <option value="meme_4.jpg" {% if selected_image == 'meme_4.jpg' %}selected{% endif %}>кот</option>
+              <option value="meme_5.jpg" {% if selected_image == 'meme_5.jpg' %}selected{% endif %}>грусть</option>
             </select>
           </li>
           <li class="form-list_item">
@@ -55,7 +55,13 @@
             <select name="color-selector" id="color-selector">
               <option value="white" {% if selected_color == 'white' %}selected{% endif %}>Белый</option>
               <option value="black" {% if selected_color == 'black' %}selected{% endif %}>Черный</option>
-              <option value="black" {% if selected_color == 'yellow' %}selected{% endif %}>Желтый</option>
+              <option value="yellow" {% if selected_color == 'yellow' %}selected{% endif %}>Желтый</option>
+              <option value="red" {% if selected_color == 'red' %}selected{% endif %}>Красный</option>
+              <option value="blue" {% if selected_color == 'blue' %}selected{% endif %}>Синий</option>
+              <option value="green" {% if selected_color == 'green' %}selected{% endif %}>Зеленый</option>
+              <option value="cyan" {% if selected_color == 'cyan' %}selected{% endif %}>Голубой</option>
+              <option value="orange" {% if selected_color == 'orange' %}selected{% endif %}>Оранжевый</option>
+              <option value="violet" {% if selected_color == 'violet' %}selected{% endif %}>Фиолетовый</option>
               <!--Доп.Задание №1. Добавь сюда новые цвета -->
 
 
